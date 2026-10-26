@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portada - Sitio Hugo ASIR</title>
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main style="padding: 20px;">
+        <h1>Página Principal (Index)</h1>
+        <p>Bienvenido a la portada de mi sitio web estático generado con Hugo para la práctica P1.2 de IAW.</p>
+        
+        <hr>
+        
+        <h2>Navegación a las páginas del sitio:</h2>
+        <ul>
+            <li><a href="/primera-pagina/">Ver la Primera Página de contenido</a></li>
+            <li><a href="/acerca-de/">Ver la Segunda Página de contenido (Acerca de)</a></li>
+            <li><a href="/blog/mi-primer-articulo/">Ver la Entrada del Blog</a></li>
+        </ul>
+
+        <section style="margin-top: 30px; background: #eef6ff; padding: 15px; border-radius: 5px;">
+            <h2>Sobre mí</h2>
+            <p>Puedes ver mis proyectos en mi <a href="https://github.com/j-ballesteros" target="_blank">perfil de GitHub</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
